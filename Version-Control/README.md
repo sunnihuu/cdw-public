@@ -108,7 +108,14 @@ Hello, World.
 2. **Wait**: GitHub Desktop will upload your files
 3. **Success**: You'll see "Successfully pushed to GitHub"
 
-#### Step 6: Verify Your Success
+#### Step 6: Make your Repo Public
+
+1. **In GitHub**: Click on Settings
+2. **In GitHub**: Navigate to the "Danger Zone"
+3. **In GitHub**: Change visibility to public
+
+
+#### Step 7: Verify Your Success
 
 1. **Click**: "View on GitHub" button in GitHub Desktop
 2. **You should see**: Your repository on GitHub with the `hello-world.txt` file
@@ -120,6 +127,17 @@ Hello, World.
    - Click "Save"
    - Your site will be available at: `https://YOUR_USERNAME.github.io/my-first-repo/`
 
+
+#### Step 8: Activate Github Pages (Website Hosting)
+
+1. **In GitHub**: Enable GitHub Pages to make your site live
+2. **In GitHub**: Go to "Settings" → "Pages"
+3. **In GitHub**: Select "Deploy from a branch"
+4. **In GitHub**: Choose "main" branch
+5. **In GitHub**: Click "Save"
+6. **In GitHub**: Your site will be available at: https://YOUR_USERNAME.github.io/my-first-repo/
+
+For user name use: YOUR_USERNAME.github.io
 ---
 
 
