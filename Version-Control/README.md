@@ -62,6 +62,8 @@ While Git can be used entirely from the command line, we'll use **GitHub Desktop
 
 #### Step 1: Install GitHub Desktop
 
+![Figma_shpgFHSabG](https://github.com/user-attachments/assets/4964addc-33ac-47d7-a583-5bb749fc5d51)
+
 1. **Download**: Go to [desktop.github.com](https://desktop.github.com/)
 2. **Install**: Run the installer and follow the setup wizard
 3. **Sign In**: Use your GitHub account credentials
