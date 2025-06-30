@@ -124,12 +124,18 @@ Hello, World.
 
 #### Step 6: Make your Repo Public
 
+![Figma_0OT6fkv5LZ](https://github.com/user-attachments/assets/a083cc31-296f-4bbb-985a-88ffb6e5c523)
+
+![Figma_8lco2Kc1xF](https://github.com/user-attachments/assets/4c45db97-d862-4453-a4cd-f37f80b7c9a7)
+
 1. **In GitHub**: Click on Settings
 2. **In GitHub**: Navigate to the "Danger Zone"
 3. **In GitHub**: Change visibility to public
 
 
 #### Step 7: Verify Your Success
+
+![Figma_WxgMAoxRi2](https://github.com/user-attachments/assets/53a25482-9906-4eaa-abd5-d273e145980e)
 
 1. **Click**: "View on GitHub" button in GitHub Desktop
 2. **You should see**: Your repository on GitHub with the `hello-world.txt` file
@@ -142,7 +148,9 @@ Hello, World.
    - Your site will be available at: `https://YOUR_USERNAME.github.io/my-first-repo/`
 
 
-#### Step 8: Activate Github Pages (Website Hosting)
+#### Step 8: Activate GitHub Pages (Website Hosting)
+
+![Figma_NecU2Khp30](https://github.com/user-attachments/assets/e5790643-c31d-4180-99f0-99193bfa40d8)
 
 1. **In GitHub**: Enable GitHub Pages to make your site live
 2. **In GitHub**: Go to "Settings" → "Pages"
