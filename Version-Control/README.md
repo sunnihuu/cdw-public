@@ -2,7 +2,7 @@
 ## Git and GitHub
 
 
-Welcome to this comprehensive tutorial on version control! This guide will walk you through the fundamentals of Git, its history, and how it's used professionally in modern software development.
+Welcome to this tutorial on version control. This guide will walk you through the fundamentals of Git.
 
 ---
 
@@ -19,65 +19,9 @@ Welcome to this comprehensive tutorial on version control! This guide will walk 
 - **Rollback**: Easily revert to previous versions if something breaks
 - **Code Review**: Track changes and review code before merging
 
-#### Types of Version Control Systems
-
-1. **Local Version Control**: Files stored on your computer only
-2. **Centralized Version Control**: Single server contains all files (e.g., SVN)
-3. **Distributed Version Control**: Every user has a complete copy (e.g., Git)
-
 ---
 
-### 2  History of Git
-
-#### The Birth of Git
-
-Git was created by **Linus Torvalds** (the creator of Linux) in 2005. Here's the fascinating story:
-
-- **2002**: Linux kernel development used BitKeeper (proprietary software)
-- **2005**: BitKeeper's free license was revoked
-- **April 2005**: Linus Torvalds started developing Git
-- **June 2005**: First Git release (v0.99)
-- **July 2005**: Linux kernel moved to Git
-
-#### Why "Git"?
-
-The name "Git" is British slang meaning "unpleasant person." Linus joked that he named all his projects after himself, and Git is no exception! However, some suggest it stands for "Global Information Tracker."
-
-#### Key Design Principles
-
-- **Speed**: Git is incredibly fast
-- **Simple Design**: Easy to understand and use
-- **Strong Support for Non-Linear Development**: Excellent branching and merging
-- **Fully Distributed**: Every clone is a complete backup
-- **Able to Handle Large Projects**: Scales from small to massive projects
-
----
-
-### 3  Popular Version Control Frameworks
-
-#### Git (Most Popular)
-- **Pros**: Fast, powerful, widely adopted
-- **Cons**: Steep learning curve
-- **Used by**: 93% of developers worldwide
-
-#### Mercurial
-- **Pros**: Simpler than Git, good documentation
-- **Cons**: Smaller community
-- **Used by**: Some open-source projects
-
-#### Subversion (SVN)
-- **Pros**: Simple, good for binary files
-- **Cons**: Requires internet connection, slower
-- **Used by**: Legacy projects, some enterprise
-
-#### Perforce
-- **Pros**: Excellent for large files, enterprise features
-- **Cons**: Expensive, complex
-- **Used by**: Game development, large enterprises
-
----
-
-### 4  Git Glossary of Terms
+### 2  Git Glossary of Terms
 
 #### Core Concepts
 
@@ -101,7 +45,7 @@ The name "Git" is British slang meaning "unpleasant person." Linus joked that he
 
 ---
 
-### 5  Your First Repo - Commit and Push "Hello World" file using Github Desktop
+### 3  Your First Repo - Commit and Push "Hello World" file using Github Desktop
 
 While Git can be used entirely from the command line, we'll use **GitHub Desktop** to simplify the learning process. GitHub Desktop provides a user-friendly graphical interface that makes the most common Git operations accessible without memorizing commands.
 
@@ -113,8 +57,6 @@ While Git can be used entirely from the command line, we'll use **GitHub Desktop
 - **Visual Feedback**: See changes, history, and branches clearly
 - **Cross-Platform**: Works on Windows, Mac, and Linux
 - **Free**: No cost to use
-
-*Note: Learning command line Git is valuable for advanced users, but GitHub Desktop is perfect for getting started!*
 
 ---
 
@@ -146,9 +88,8 @@ While Git can be used entirely from the command line, we'll use **GitHub Desktop
 4. **Open the file** in any text editor (Notepad, VS Code, etc.)
 5. **Add this simple text**:
 ```
-Hello, World!
-This is my first Git repository created with GitHub Desktop.
-Welcome to version control!
+Hello, World.
+
 ```
 6. **Save the file**
 
@@ -181,74 +122,4 @@ Welcome to version control!
 
 ---
 
-#### Understanding What Just Happened
-
-**GitHub Desktop performed these Git operations for you:**
-
-**1. Repository Creation**
-- Created a new folder on your computer to store your project
-- Set up Git tracking to monitor changes in that folder
-- Connected your local folder to a repository on GitHub
-
-**2. File Tracking**
-- Detected your new `hello-world.txt` file
-- Prepared it to be saved in your project's history
-- This is called "staging" - Git's way of getting ready to save changes
-
-**3. Saving Your Work (Commit)**
-- Took a snapshot of your file exactly as it was
-- Saved this snapshot with your commit message
-- Created a permanent record of this version of your work
-- Each commit has a unique ID so you can find it later
-
-**4. Uploading to GitHub (Push)**
-- Sent your local changes to GitHub's servers
-- Made your work available online
-- Created a backup of your project in the cloud
-- Made it possible for others to see and download your work
-
-**The Visual Interface Shows You:**
-- **Changes tab**: Files you've modified but haven't saved to history yet
-- **History tab**: All the snapshots (commits) you've made over time
-- **Branches**: Different versions of your project (like different storylines)
-- **Sync status**: Whether your computer and GitHub have the same version
-
----
-
-#### Congratulations! 
-
-You've successfully:
-- ✅ Installed GitHub Desktop
-- ✅ Created your first Git repository
-- ✅ Made your first commit
-- ✅ Pushed code to GitHub
-- ✅ Published your first text file
-
-**You're now a Git user!** 
-
----
-
-## Next Steps with GitHub Desktop
-
-1. **Explore the Interface**: Try clicking different tabs and buttons
-2. **Make More Changes**: Edit your text file and commit the changes
-3. **Learn Branching**: Create a new branch for a feature
-4. **Collaborate**: Clone someone else's repository
-5. **Advanced Features**: Explore merge conflicts, stashing, and more
-
-## When to Use Command Line vs GitHub Desktop
-
-**Use GitHub Desktop for:**
-- Daily development work
-- Simple commits and pushes
-- Visualizing repository history
-- Learning Git concepts
-
-**Use Command Line for:**
-- Advanced Git operations
-- Automation and scripting
-- Server environments
-- Complex merge strategies
-
----
 
