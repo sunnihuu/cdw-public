@@ -168,6 +168,7 @@ Write code that is understandable for a beginner.”
 
 ![Figma_t3bfaumDXc](https://github.com/user-attachments/assets/36c58e2c-66f8-4e7f-9d4e-1e000b3561bc)
 
+---
 
 ### 3  Boilerplate code (using separate files)
 
