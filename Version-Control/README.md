@@ -88,6 +88,10 @@ While Git can be used entirely from the command line, we'll use **GitHub Desktop
 
 #### Step 3: Create Your "Hello World" File
 
+![Figma_wUVmoC17uJ](https://github.com/user-attachments/assets/525d27f1-b7bb-4dba-a2c3-06331a33fe82)
+
+![Figma_7NHo4luSfv](https://github.com/user-attachments/assets/db290596-db12-421f-a3a3-39a404cdc0ea)
+
 1. **In GitHub Desktop**: Click "Show in Explorer" (Windows) or "Show in Finder" (Mac)
 2. **Create a new file**: Right-click → New → Text Document
 3. **Name it**: `hello-world.txt`
@@ -101,6 +105,8 @@ Hello, World.
 
 #### Step 4: Make Your First Commit
 
+![Figma_5taF7eV99B](https://github.com/user-attachments/assets/d834bf60-3943-47c2-8aa6-341e50902151)
+
 1. **Return to GitHub Desktop**
 2. **You'll see**: Your new `hello-world.txt` file in the "Changes" tab
 3. **Add a commit message**: 
@@ -109,6 +115,8 @@ Hello, World.
 4. **Click**: "Commit to main"
 
 #### Step 5: Push to GitHub
+
+![Figma_NkesT2lGXD](https://github.com/user-attachments/assets/4575b33e-417b-477d-9ec3-cd0c491dcbf0)
 
 1. **In GitHub Desktop**: Click "Push origin" button
 2. **Wait**: GitHub Desktop will upload your files
