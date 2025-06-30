@@ -62,7 +62,7 @@ While Git can be used entirely from the command line, we'll use **GitHub Desktop
 
 #### Step 1: Install GitHub Desktop
 
-![Figma_shpgFHSabG](https://github.com/user-attachments/assets/4964addc-33ac-47d7-a583-5bb749fc5d51)
+![Figma_XWf7GRywY0](https://github.com/user-attachments/assets/e7fbff1d-fc15-4c50-874f-07e06fcca13c)
 
 1. **Download**: Go to [desktop.github.com](https://desktop.github.com/)
 2. **Install**: Run the installer and follow the setup wizard
@@ -70,6 +70,10 @@ While Git can be used entirely from the command line, we'll use **GitHub Desktop
 4. **Verify**: GitHub Desktop should open and show your GitHub repositories
 
 #### Step 2: Create Your First Repository
+
+![Figma_htXXlucwQQ](https://github.com/user-attachments/assets/1402b64a-d441-436d-b8e4-5b9616552c6a)
+
+![Figma_Wl1nbWzn73](https://github.com/user-attachments/assets/3a627ee9-fd34-41eb-a0db-63c97b720ebe)
 
 1. **Open GitHub Desktop**
 2. **Click**: "File" → "New Repository" (or press Ctrl+N)
