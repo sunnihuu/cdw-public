@@ -113,9 +113,63 @@ document.addEventListener('DOMContentLoaded', function() {  // Listen for when H
 2. **CSS** makes it look good and organized (colors, spacing, hover effects)
 3. **JavaScript** makes it interactive and dynamic (responds to clicks, changes content)
 
+### For additional information on the syntax of this languages go to: https://www.w3schools.com/html/default.asp
 ---
 
-### 2  Boilerplate code (using separate files)
+### 2 Exercise
+
+#### Step 1: Chat GPT Demo
+
+Use the following prompt in chat GPT or a similar AI Chatbot:
+
+“Construct a basic website containing an index.html file, a style.css file and a script.js file.
+Make the website a basic demonstration of how these files work together.
+Include comments and explanations for each line of code.
+Use a minimalist style in black and white for the website design.
+Write code that is understandable for a beginner.”
+
+#### Step 2: Download VS Code
+
+![Figma_zsQkizR17R](https://github.com/user-attachments/assets/3d61c718-56c2-4d4b-a653-d1bb114a6395)
+
+#### Step 3: Open the Folder with the Repo
+
+![Figma_x6EaTQN0s2](https://github.com/user-attachments/assets/3f58c888-1f8e-4ffc-b967-6ddab18b2e68)
+
+![Figma_o97hvUlXRF](https://github.com/user-attachments/assets/0b48ab05-3806-44bd-b855-3a8e56bf46e4)
+
+#### Step 4: Create an index.html, style.css, and a script.js file
+
+![Figma_3NnVxDqmuk](https://github.com/user-attachments/assets/0a0c17c2-5e96-461a-8b3a-2c10cbe3156a)
+
+![Figma_UdMcTk7KIW](https://github.com/user-attachments/assets/5c634928-a461-4763-b93f-99301047f4f9)
+
+![Figma_kLAfOavzeF](https://github.com/user-attachments/assets/34cad656-0631-4d63-8cdf-665cdbbd6374)
+
+![Figma_x6QazvozHl](https://github.com/user-attachments/assets/d17a6f5a-38ed-4fc9-bc6d-2a7718fb42c6)
+
+#### Step 5: Run the index.html locally
+
+![Figma_nMBZBTFQPF](https://github.com/user-attachments/assets/46c43c13-6345-4038-9f50-742f7da0c9b0)
+
+![Figma_t3bfaumDXc](https://github.com/user-attachments/assets/75b3ec98-d3fc-45aa-914b-9f3bce9029d5)
+
+#### Step 6: Commit and push your changes
+
+![Figma_ZMOd2jPVAK](https://github.com/user-attachments/assets/b165aa12-3718-4d6e-b5f8-958972d6d714)
+
+![Figma_XjjK7TLLM3](https://github.com/user-attachments/assets/34a7f9dc-6efd-4be2-b68f-54aae5880a7b)
+
+#### Step 7: Review your GitHub page that now should have the website live online
+
+![Figma_ofTv65jST4](https://github.com/user-attachments/assets/9c8b8642-7cd2-4cb6-b26c-8a07cfa7cba5)
+
+![Figma_bagt4aQODv](https://github.com/user-attachments/assets/b5a1aab2-f629-47f5-a3cc-445645c0e9ef)
+
+![Figma_t3bfaumDXc](https://github.com/user-attachments/assets/36c58e2c-66f8-4e7f-9d4e-1e000b3561bc)
+
+
+### 3  Boilerplate code (using separate files)
 
 While it's possible to put HTML, CSS, and JavaScript all in one file, we'll use **separate files** for better organization and learning. This approach helps you understand the role of each language clearly.
 
