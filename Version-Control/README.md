@@ -137,7 +137,7 @@ Hello, World.
 5. **In GitHub**: Click "Save"
 6. **In GitHub**: Your site will be available at: https://YOUR_USERNAME.github.io/my-first-repo/
 
-For user name use: YOUR_USERNAME.github.io
+#### For user name use: YOUR_USERNAME.github.io
 ---
 
 
