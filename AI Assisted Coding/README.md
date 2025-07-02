@@ -1,7 +1,7 @@
 # Best Practices for AI Assisted Coding
 ## ChatGPT, Claude, Gemini, Deepseek
 
-Welcome to AI-assisted coding! This guide will help you develop effective strategies for working with AI coding assistants to enhance your learning and productivity.
+This guide will help you develop effective strategies for working with AI coding assistants to enhance your learning and productivity.
 
 ---
 
