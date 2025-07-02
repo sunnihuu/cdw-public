@@ -157,9 +157,213 @@ Hello, World.
 3. **In GitHub**: Select "Deploy from a branch"
 4. **In GitHub**: Choose "main" branch
 5. **In GitHub**: Click "Save"
-6. **In GitHub**: Your site will be available at: https://YOUR_USERNAME.github.io/my-first-repo/
+6. **In GitHub**: Your site will be available at: https://YOUR_USERNAME.github.io/my-first-repo/
 
 #### For user name use: YOUR_USERNAME.github.io
+
+---
+
+### 4  Resolving Merge Conflicts
+
+When multiple people work on the same file or when you work on different branches, Git may encounter **merge conflicts**. This happens when Git can't automatically merge changes because they conflict with each other.
+
+#### What Causes Merge Conflicts?
+
+- **Same Line Changes**: Two people modify the same line in different ways
+- **File Deletion**: One person deletes a file while another modifies it
+- **Divergent Branches**: Branches have diverged and contain different commits
+- **Conflicting Pull Requests**: Multiple PRs modify the same code
+
+#### Example Scenario: Text File Conflict
+
+Let's say you and a colleague are working on the same `hello-world.txt` file:
+
+**Your version:**
+```
+Hello, World!
+Welcome to our project.
+This is my contribution.
+```
+
+**Colleague's version:**
+```
+Hello, World!
+Welcome to our project.
+This is their contribution.
+```
+
+When you try to merge, Git will show a conflict because both of you modified the same line.
+
+#### Resolving Conflicts with GitHub Desktop
+
+##### Step 1: Identify the Conflict
+
+1. **Pull latest changes**: In GitHub Desktop, click "Fetch origin" then "Pull origin"
+2. **Conflict detected**: GitHub Desktop will show "Merge conflicts detected"
+3. **Click**: "Open in editor" or "Resolve conflicts"
+
+##### Step 2: Understand the Conflict Markers
+
+Git adds special markers to show conflicts:
+
+```
+<<<<<<< HEAD
+This is my contribution.
+=======
+This is their contribution.
+>>>>>>> branch-name
+```
+
+- `<<<<<<< HEAD`: Start of your changes
+- `=======`: Separator between conflicting changes
+- `>>>>>>> branch-name`: End of incoming changes
+
+##### Step 3: Resolve the Conflict
+
+**Option A: Keep Your Changes**
+```
+Hello, World!
+Welcome to our project.
+This is my contribution.
+```
+
+**Option B: Keep Their Changes**
+```
+Hello, World!
+Welcome to our project.
+This is their contribution.
+```
+
+**Option C: Combine Both Changes**
+```
+Hello, World!
+Welcome to our project.
+This is my contribution.
+This is their contribution.
+```
+
+**Option D: Write Something New**
+```
+Hello, World!
+Welcome to our project.
+This is our combined contribution.
+```
+
+##### Step 4: Complete the Resolution
+
+1. **Remove conflict markers**: Delete all `<<<<<<<`, `=======`, and `>>>>>>>` lines
+2. **Save the file**: In your text editor
+3. **Return to GitHub Desktop**: The conflict should be resolved
+4. **Stage the file**: Click the checkbox next to the resolved file
+5. **Commit the merge**: Add a message like "Resolve merge conflict in hello-world.txt"
+
+#### Advanced Conflict Resolution Examples
+
+##### Example 1: Code File Conflict
+
+**Original file:**
+```javascript
+function greet(name) {
+    return "Hello, " + name;
+}
+```
+
+**Your changes:**
+```javascript
+function greet(name) {
+    return "Hello, " + name + "!";
+}
+```
+
+**Their changes:**
+```javascript
+function greet(name) {
+    return "Hi, " + name;
+}
+```
+
+**Resolution (combining both):**
+```javascript
+function greet(name) {
+    return "Hello, " + name + "!";
+}
+```
+
+##### Example 2: File Structure Conflict
+
+**Scenario**: You added a new file `config.json` while someone else deleted it.
+
+**Resolution options:**
+- **Keep the file**: If the configuration is still needed
+- **Delete the file**: If it's no longer required
+- **Rename the file**: If there's a naming conflict
+
+##### Example 3: Complex Code Conflict
+
+**Original:**
+```python
+def calculate_total(items):
+    total = 0
+    for item in items:
+        total += item.price
+    return total
+```
+
+**Your changes:**
+```python
+def calculate_total(items):
+    total = 0
+    for item in items:
+        total += item.price
+        if item.discount:
+            total -= item.discount
+    return total
+```
+
+**Their changes:**
+```python
+def calculate_total(items):
+    total = 0
+    for item in items:
+        total += item.price
+    return total * 1.1  # Add 10% tax
+```
+
+**Resolution (combining features):**
+```python
+def calculate_total(items):
+    total = 0
+    for item in items:
+        total += item.price
+        if item.discount:
+            total -= item.discount
+    return total * 1.1  # Add 10% tax
+```
+
+#### Best Practices for Conflict Resolution
+
+1. **Communicate**: Talk to your team before resolving conflicts
+2. **Understand the changes**: Read both versions carefully
+3. **Test your resolution**: Make sure the code still works
+4. **Use meaningful commit messages**: Explain what you resolved
+5. **Consider code review**: Have someone review complex resolutions
+6. **Backup first**: Create a backup branch before resolving
+
+#### Preventing Conflicts
+
+1. **Pull frequently**: Keep your local branch up to date
+2. **Work on different files**: Coordinate with team members
+3. **Use feature branches**: Work on separate branches for features
+4. **Communicate changes**: Let team know what you're working on
+5. **Small, frequent commits**: Make smaller, more frequent commits
+
+#### When to Ask for Help
+
+- **Complex conflicts**: When you're unsure about the resolution
+- **Business logic conflicts**: When changes affect core functionality
+- **Multiple file conflicts**: When many files have conflicts
+- **Unfamiliar code**: When you don't understand the conflicting code
+
 ---
 
 
