@@ -18,19 +18,16 @@ document.addEventListener('DOMContentLoaded', function() {
   // 3. Copy the config object that Firebase provides
   // 4. Replace the values below with your actual Firebase config
   
-  const firebaseConfig = {
-    // Your Firebase project configuration goes here
-    // For this tutorial, we'll use a demo configuration
-    // In a real app, you would replace these with your actual Firebase project settings
-    apiKey: "your-api-key",
-    authDomain: "your-project.firebaseapp.com",
-    databaseURL: "https://your-project-default-rtdb.firebaseio.com",
-    projectId: "your-project-id",
-    storageBucket: "your-project.appspot.com",
-    messagingSenderId: "your-sender-id",
-    appId: "your-app-id"
-  };
-
+const firebaseConfig = {
+  apiKey: "AIzaSyBLYxbOiOdBdbFdLTECRiJ_PAuoUXAj_0k",
+  authDomain: "fir-poll-app.firebaseapp.com",
+  databaseURL: "https://fir-poll-app-default-rtdb.firebaseio.com",
+  projectId: "fir-poll-app",
+  storageBucket: "fir-poll-app.firebasestorage.app",
+  messagingSenderId: "476548808558",
+  appId: "1:476548808558:web:6be496f3c05f0fcda74b7f",
+  measurementId: "G-8XF7ED8153"
+};
   // Initialize Firebase - this connects your app to Firebase services
   // firebase.initializeApp() sets up the connection using your configuration
   firebase.initializeApp(firebaseConfig);
